@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  gdal_env:
+    image: gdal_env
+    container_name: gdal_env
+    volumes: 
+      - ./volume:/home/ubuntu/volume
+    stdin_open: true
+    tty: true
