@@ -1,0 +1,1 @@
+# GDAL_DOCKER_ENV
