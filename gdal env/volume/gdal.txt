@@ -1,0 +1,5 @@
+gdalwarp sungnambackedit.tif outfile.tif -t_srs EPSG:3857
+gdal2tiles.py -a 0,0,0,0 -z 0-20 okkeo_transparent_mosaic_group1.tif tiles
+gdaldem color-relief 210223-dangjinsm-singlegrid_dsm.tif  D:\colors.txt 210223-dangjinsm-singlegrid_dsm_color.tif -alpha -co ALPHA=YES
+
+
